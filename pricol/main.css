@@ -1,0 +1,162 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+}
+
+* {
+	padding:0;
+	margin: 0;
+}
+
+#first {
+	padding-top: 15px;
+	background-color: rgb(87, 147, 221);
+	height: 100vh;
+}
+
+article{
+	width: 80vw;
+	margin: auto;
+}
+
+.header__inp {
+	text-align: right;
+}
+.header__name {
+	width: 11vw;
+	border: 1px solid #fff;
+	border-radius: 3px;
+	background: unset;
+	outline: none;
+	color: #fff;
+	height: 4.5vh;
+	padding-left: 10px;
+}
+
+
+::-webkit-input-placeholder {color:#fff; opacity:.7;}
+::-moz-placeholder          {color:#fff; opacity:.7;}
+:-moz-placeholder           {color:#fff; opacity:.7;}
+:-ms-input-placeholder      {color:#fff; opacity:.7;}
+
+
+.header__btn {
+	height: 4.5vh;
+	width: 4.8vw;
+	background: unset;
+	border: 1px solid #fff;
+	font-weight: 600;
+	color: #fff;
+	border-radius: 50px;
+	cursor: pointer;
+}
+
+.header__btn:hover {
+	color:  rgb(87, 147, 221);
+	background: #fff;
+	transition: 0.2s;
+}
+
+
+.offer__main {
+	margin-top: 240px;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+li {
+	list-style: none;
+}
+	
+.description {
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 60%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.img__one {
+	height: 100%;
+}
+.img__two {
+	width: 30px;
+}
+
+.tw__one {
+	width: 40px;
+	margin: -20px;
+}
+
+
+.offer {
+	width: 30vw;
+}
+
+h2 {
+	font-size: 34px;
+	margin-top: 10px;
+	margin-bottom: 25px; 
+}
+
+li {
+	height: 28px;
+	position: relative;
+	list-style: none;
+	width: 120px;
+	margin: 13px 0;
+}
+
+.items {
+	margin-top: 65px;
+}
+
+.offer p {
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.registr {
+	width: 86%;
+	border: none;
+	background-color: #fff;
+	color:  rgb(87, 147, 221);
+	border-radius: 50px;
+	height: 4.5vh;
+	font-weight: 600;
+	font-size: 15px;
+	display: block;
+	cursor: pointer;
+}
+
+.registr:hover {
+	opacity: 0.87;
+	transition: 0.2s;
+}
+
+.login {
+	width: 86%;
+	border: none;
+	color: #fff ;
+	border-radius: 50px;
+	height: 4.5vh;
+	font-weight: 600;
+	font-size: 15px;
+	display: block;
+	border: 1px solid #fff;
+	background: unset;
+	margin-top: 12px;
+	cursor: pointer;
+}
+
+.login:hover {
+	background: rgb(140, 171, 226);
+	transition: 0.2s;
+	border: none;
+} 
