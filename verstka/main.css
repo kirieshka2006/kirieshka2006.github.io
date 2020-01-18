@@ -500,6 +500,14 @@ footer {
 	font-weight: 700;
 }
 
+@media screen and (max-width: 1024px) {
+	.case__two {
+	width: 48%;
+	height: 37vh;
+	margin-top: 25px;
+	}
+}
+
 @media screen and (max-width: 480px){
 	#first, #second, #third, #team {
 		text-align: center;	
